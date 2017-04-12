@@ -51,6 +51,8 @@ img {
 .intro_div
 {
     background-image: url("../images/DSC06648.JPG");
+    height: 764px;
+    width: 1148px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
