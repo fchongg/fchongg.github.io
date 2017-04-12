@@ -36,6 +36,7 @@ p {
     width: 200px;
     height: 200px;
     position: relative;
+    background-position: center center;
     overflow: hidden;
     border-radius: 50%;
 }
