@@ -58,7 +58,7 @@ img {
     height: auto;
     max-width: 1920px;
 }
-.parallax {
+#parallax {
     /* The image used */
     background-image: url("../images/DSC06648.JPG");
 
