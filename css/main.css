@@ -41,21 +41,16 @@ p {
     overflow: hidden;
     border-radius: 50%;
 }
-
-.center-cropped {
-    object-fit: none; /* Do not scale the image */
-    object-position: center center; /* Center the image within the element */
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-}
-
 img {
     display: inline;
     margin: 0 auto;
     height: 100%;
     width: auto;
     object-fit: cover;
+}
+.intro_div
+{
+    background-image: url("../images/DSC06648.JPG");
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -70,3 +65,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
