@@ -54,6 +54,7 @@ img {
     margin: 0 auto;
     height: 100%;
     width: auto;
+    object-fit: cover;
 }
 footer {
     border-top: 1px solid #d5d5d5;
