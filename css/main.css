@@ -55,6 +55,19 @@ img {
     height: auto;
     max-width: 1920px;
 }
+.parallax {
+    /* The image used */
+    background-image: url("../images/DSC06648.JPG");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
