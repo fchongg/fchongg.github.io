@@ -58,24 +58,16 @@ img {
     height: auto;
     max-width: 1920px;
 }
-#parallax {
+.intro_bg {
     /* The image used */
-    background-image: url("../images/DSC06648.JPG") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    /* Full height */
-    /*width: 100%;*/
-    /*height: 600px%;*/
-    /*background-size : 100% 1000px*/
+    background-image: url("../images/DSC06648.JPG");
+    background-size: 100% 100%;
 
     /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 footer {
     border-top: 1px solid #d5d5d5;
