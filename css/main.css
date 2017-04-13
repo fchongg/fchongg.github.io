@@ -63,8 +63,9 @@ img {
     background-image: url("../images/DSC06648.JPG");
 
     /* Full height */
-    width: 100%;
-    height: 600px;
+    /*width: 100%;*/
+    /*height: 600px%;*/
+    background-size : 100% auto
 
     /* Create the parallax scrolling effect */
     /*background-attachment: fixed;*/
