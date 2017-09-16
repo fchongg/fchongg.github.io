@@ -34,3 +34,12 @@ body {
     background-image: url(/../images/background-photo-mobile-devices.jpg);
   }
 	}
+
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-position: center center;
+    overflow: hidden;
+    border-radius: 50%;
+}
