@@ -35,3 +35,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+## License
+The source code is released into the public domain under [CC0 1.0 Universal](https://github.com/sixrevisions/responsive-full-background-image/blob/master/LICENSE). The source code is free of any copyright restrictions. You can use, copy, sell, modify, distribute, etc. the code, even for commercial purposes, all without asking permission, providing attribution or performing any requirement.

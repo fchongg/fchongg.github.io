@@ -1,78 +1,66 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Frances Chong</title>
-		<script src="/scripts/jquery.min.js"></script>
-		<script src="/scripts/d3.min.js"></script>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/css/circle.css">
-		<script src="/scripts/main.js"></script>
-		<link rel="icon" href="/images/logo.png">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a class="nav" id="about_me" href="#">About</a></li>
-        		<li><a class="nav" id="skills" href="#">Skills and Tools</a></li>
-        		<li><a class="nav" id="projects" href="#">Projects</a></li>
-    		</ul>
-		</nav>
-		<div class="intro_bg">
-		<!--<div class="container" id="first_header">-->
-        		<h1 align="center">HI,
-					I'M
-					FRANCES
-					CHONG
-				</h1>
-		</div>
-		<!-- /.container -->
 
-		<div class="section" id="about_me">
-		    <h2>About Me</h2>
+<!-- Tutorial URL: http://sixrevisions.com/css/responsive-background-image/ -->
 
-			<section class="site-element"></section>
-			<div class="site-element">&nbsp;</div>
-			<section class="site-element">
-			<div class="element-children-container">
-			<div class="image-cropper"><img  class="rounded" src="/images/headshot.png" alt=""/></div>
-			<div class="site-element"><span style="background-color: initial; letter-spacing: 0px;">Hi and welcome!</span>
-			<div>&nbsp;</div>
-			<div>First of all, thank you for taking&nbsp;your time to stop by.</div>
-			<div>&nbsp;</div>
-			<div>I'm currently a fourth year computer science student at UBC. I believe that technology has created many unbelievable opportunities for us. Artificial intelligence has always been a subject that I've been extremely fond of and I'm ecstatic in what it can deliver to us! Please contact me at: fchongg@gmail.com.</div>
-			&nbsp;&nbsp;</div>
-			<div class="site-element">
-		</div>
-		<div class="section" id="skills">
-		    <h2>Skills</h2>
-		    <ul>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Frances Chong</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Six Revisions">
+  <meta name="description" content="How to use the CSS background-size property to make an image fully span the entire viewport.">
+  <link rel="icon" href="/images/logo.png">
+  <link href="http://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
-               <div class="container">
-				    <div id="activeBorder" class="active-border">
-				        <div id="circle" class="circle">
-				            <span class="prec 270" id="prec">50%</span>
-				        </div>
-				    </div>
-				</div>
-			  <li>Javascript</li>
-			  <li>Python</li>
-			  <li>Java</li>
-			  <li>Typescript</li>
-			  <li>C/C++*</li>
-			  <li>HTML/CSS</li>
-			</ul>
-		</div>
-		<div class="section" id="projects">
-		    <h2>Projects</h2>
-		</div>
-		<footer>
-    		<ul>
-        		<li><a href="mailto:fchongg@gmail.com">Email</a></li>
-        		<li><a href="https://www.linkedin.com/in/franceschongg/">LinkedIn</a></li>
-        		<li><a href="https://github.com/fchongg">GitHub</a></li>
-			</ul>
-		</footer>
-	</body>
+  <!-- Not required: presentational-only.css only contains CSS for prettifying the demo -->
+  <link rel="stylesheet" href="presentational-only/presentational-only.css">
+
+  <!-- responsive-full-background-image.css stylesheet contains the code you want -->
+  <link rel="stylesheet" href="scripts/main.css">
+  
+  <!-- Not required: jquery.min.js and presentational-only.js is only used to demonstrate scrolling behavior of the viewport  -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="presentational-only/presentational-only.js"></script>
+</head>
+<body>
+<!--   <nav class="navbar" id="top">
+    <div class="inner">
+      <a href="http://sixrevisions.com/css/responsive-background-image/">Read Tutorial</a>
+    </div>
+  </nav> -->
+  <header class="container">
+    <section class="content">
+      <h1>Hi, I'm Frances Chong</h1>
+      <p class="sub-title"><strong>4th Year Computer Science</strong> <br /> University of British Columbia Student</p>
+      <p><a class="button" id="load-more-content" href="#top">Learn more about me</a></p>
+      <p>To see scrolling behavior</p>
+      
+      <!-- Some content to demonstrate viewport scrolling behavior -->
+      <div id="more-content">
+        <p><br />temp <br /> <a href="http://unsplash.com/" target="_blank">Unsplash</a>.</p>
+        <blockquote>
+        Creating a goal-driven statement of what a product or application does results in better product experiences.
+        It meets expectations because it is focused on solving the problem it was created to address.
+        There is power in doing one thing and it doing it very well.
+        <cite>
+          Francisco Inchauste
+          From <a href="http://sixrevisions.com/usabilityaccessibility/creating-a-timeless-user-experience/" target="_blank">Creating a Timeless User Experience</a>
+        </cite>
+        </blockquote>
+        <blockquote>
+        Fitts' law is centered around a mathematical equation that is used to illustrate the time it takes to reach a target object.
+        A target object, in the context of UIs, can be any interactive element, such as a submit button, a hyperlink, and an input field in a web form.
+        The idea is this: The quicker you can reach a target object, the more convenient and easy it is to use.
+          <cite>
+          Jason Gross
+          From <a href="http://sixrevisions.com/usabilityaccessibility/improving-usability-with-fitts-law/" target="_blank">Improving Usability with Fitts' Law</a>
+          </cite>
+        </blockquote>
+      </div>
+    </section>
+  </header>
+</body>
 </html>
