@@ -34,10 +34,7 @@ a {
 }
 
 p {
-  margin: 15px auto;
-  max-width: 480px;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #e1e1e1;
+  margin: 0 0 15px 0;
 }
 
 strong {
@@ -53,8 +50,8 @@ blockquote {
   background-color: rgba(0, 0, 0, 0.4);
   color: #e1e1e1;
   font-family: "Kotta One", serif;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 blockquote cite {
