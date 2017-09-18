@@ -33,10 +33,11 @@ a {
   color: #ffffff;
 }
 
-p {  
+p {
   margin: 15px auto;
   max-width: 480px;
   background-color: rgba(0, 0, 0, 0.4);
+  color: #e1e1e1;
 }
 
 strong {
