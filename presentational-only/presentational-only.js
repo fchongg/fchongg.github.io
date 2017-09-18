@@ -9,7 +9,7 @@ $(document).ready(function()
 
     if( $('#more-content').hasClass('shown') )
     {
-      $('#load-more-content').text('Hide content');
+      $('#load-more-content').text('Hide information');
       $('#more-content').fadeIn('slow', function()
       {
         $('#load-more-content').fadeIn('slow');
@@ -17,7 +17,7 @@ $(document).ready(function()
     }
     else
     {
-      $('#load-more-content').text('Load some content');
+      $('#load-more-content').text('Learn more about me');
       $('#more-content').fadeOut('slow', function()
       {
         $('#load-more-content').fadeIn('slow');
