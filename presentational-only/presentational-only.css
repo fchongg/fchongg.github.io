@@ -33,8 +33,10 @@ a {
   color: #ffffff;
 }
 
-p {
-  margin: 0 0 15px 0;
+p {  
+  margin: 15px auto;
+  max-width: 480px;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 strong {
@@ -47,7 +49,7 @@ blockquote {
   margin: 15px auto;
   padding: 15px;
   /*background-color: rgba(0, 0, 0, 0.3); */
-  background-color: rgba(0, 0, 0, 0.4);  
+  background-color: rgba(0, 0, 0, 0.4);
   color: #e1e1e1;
   font-family: "Kotta One", serif;
   font-size: 22px;
