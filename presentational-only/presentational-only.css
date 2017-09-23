@@ -181,6 +181,22 @@ blockquote cite {
     font-size: 15px;
     line-height: 20px;
   }
+  
+  table{
+    width: 80%;
+  }
+
+  td{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: baseline;
+  }
+
+  img{
+    width: 100%;    
+  }
 
   html, body, .container {
     height: auto;
