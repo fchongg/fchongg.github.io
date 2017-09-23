@@ -195,7 +195,9 @@ blockquote cite {
   }
 
   img{
-    width: 40px;    
+    max-width: 50%;
+    height: auto;
+    width: auto; 
   }
 
   html, body, .container {
