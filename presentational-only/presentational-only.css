@@ -49,7 +49,8 @@ blockquote {
   /*background-color: rgba(0, 0, 0, 0.3); */
   background-color: rgba(0, 0, 0, 0.5);
   color: #e1e1e1;
-  font-family: "Kotta One", serif;
+  /*font-family: "Kotta One", serif;*/
+  font-family: "Georgia", serif;
   font-size: 18px;
   line-height: 24px;
 }
