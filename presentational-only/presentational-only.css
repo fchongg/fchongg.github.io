@@ -1,6 +1,7 @@
 /* Presentational style rules only
  * Not required
  */
+@import url(https://fonts.googleapis.com/css?family=Abel);
 
 html, body, .container {
   height: 100%;
@@ -50,7 +51,7 @@ blockquote {
   background-color: rgba(0, 0, 0, 0.5);
   color: #e1e1e1;
   /*font-family: "Kotta One", serif;*/
-  font-family: "Georgia", serif;
+  font-family: "Abel";
   font-size: 18px;
   line-height: 24px;
 }
