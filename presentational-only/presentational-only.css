@@ -65,6 +65,13 @@ blockquote cite {
   text-transform: uppercase;
 }
 
+.circular--square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+
 /* Layout */
 
 .navbar {
@@ -196,13 +203,6 @@ blockquote cite {
     text-align: center;
     overflow: hidden;
     vertical-align: baseline;
-  }
- 
-  image {
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
   }
 
   html, body, .container {
