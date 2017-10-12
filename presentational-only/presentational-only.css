@@ -197,13 +197,7 @@ blockquote cite {
     overflow: hidden;
     vertical-align: baseline;
   }
-
-  img{
-    max-width: 100%;
-    height: auto;
-    width: auto; 
-  }
-  
+ 
   .circular--square {
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
